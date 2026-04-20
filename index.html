@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanyam Kalra | DevOps Portfolio</title>
+    <meta
+      name="description"
+      content="Friendly DevOps portfolio for Sanyam Kalra, Senior DevOps Engineer at Pine Labs, focused on cloud platforms, CI/CD, Kubernetes, and observability."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+    <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+    <div class="bg-blob blob-one" aria-hidden="true"></div>
+    <div class="bg-blob blob-two" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="tool-cloud" aria-hidden="true">
+      <img class="floating-tool tool-docker" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="" />
+      <img class="floating-tool tool-kubernetes" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="" />
+      <img class="floating-tool tool-grafana" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" alt="" />
+      <img class="floating-tool tool-aws" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="" />
+      <img class="floating-tool tool-jenkins" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="" />
+      <img class="floating-tool tool-github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" />
+      <img class="floating-tool tool-gcp" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="" />
+      <img class="floating-tool tool-kafka" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="" />
+      <img class="floating-tool tool-ansible" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" alt="" />
+      <div class="floating-tool floating-tool-text tool-claude">Claude</div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#top">
+        <span class="brand-mark">SK</span>
+        <span class="brand-copy">
+          <strong>Sanyam Kalra</strong>
+          <span>Senior DevOps Engineer</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#stack">Stack</a>
+        <a href="#crew">Crew</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+        <span class="theme-toggle-track">
+          <span class="theme-toggle-thumb"></span>
+        </span>
+        <span class="theme-toggle-label" id="themeToggleLabel">Dark Mode</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Cloud platforms • Release automation • Reliability engineering</p>
+          <h1>DevOps that feels dependable, readable, and easy to work with.</h1>
+          <p class="hero-text">
+            I build infrastructure and delivery systems that help teams ship faster without making
+            production feel scary. My work spans Pine Labs, OpsTree Solutions, Airtel Africa, and
+            cloud-native platforms powered by AWS, Kubernetes, Terraform, and strong observability.
+          </p>
+
+          <div class="hero-actions">
+            <a class="primary-link" href="#stack">Explore My Stack</a>
+            <a class="secondary-link" href="https://www.linkedin.com/in/sanyamkalra/" target="_blank" rel="noreferrer">Open LinkedIn</a>
+          </div>
+
+          <div class="hero-chips">
+            <span>Available for platform and DevOps roles</span>
+            <span>AWS • Kubernetes • Terraform</span>
+            <span>Release engineering and observability</span>
+          </div>
+
+          <div class="trust-row">
+            <div>
+              <strong>5+ years</strong>
+              <span>cloud-native DevOps work</span>
+            </div>
+            <div>
+              <strong>Pine Labs</strong>
+              <span>Senior DevOps Engineer</span>
+            </div>
+            <div>
+              <strong>4 environments</strong>
+              <span>Dev, Stage, UAT, Prod</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-stage reveal">
+          <div class="scene-shell">
+            <div class="scene-card scene-card-main">
+              <span class="scene-label">Platform health</span>
+              <strong>Everything should feel calm before it feels clever.</strong>
+              <p>My default mode is simple rollout paths, visible signals, and safe automation.</p>
+            </div>
+
+            <svg class="hero-illustration" viewBox="0 0 460 440" aria-hidden="true">
+              <defs>
+                <linearGradient id="hoodieGradient" x1="0%" x2="100%" y1="0%" y2="100%">
+                  <stop offset="0%" stop-color="#4f82ff" />
+                  <stop offset="100%" stop-color="#2358d4" />
+                </linearGradient>
+                <linearGradient id="deskGradient" x1="0%" x2="100%" y1="0%" y2="100%">
+                  <stop offset="0%" stop-color="#273a56" />
+                  <stop offset="100%" stop-color="#37557f" />
+                </linearGradient>
+                <linearGradient id="screenGradient" x1="0%" x2="100%" y1="0%" y2="100%">
+                  <stop offset="0%" stop-color="#eef5ff" />
+                  <stop offset="100%" stop-color="#d8e8ff" />
+                </linearGradient>
+              </defs>
+              <ellipse cx="230" cy="392" rx="144" ry="24" fill="rgba(19,34,56,0.09)" />
+              <rect x="64" y="118" width="94" height="76" rx="18" fill="url(#screenGradient)" stroke="rgba(36,107,255,0.15)" />
+              <rect x="78" y="134" width="52" height="8" rx="4" fill="#5e92ff" />
+              <rect x="78" y="150" width="64" height="8" rx="4" fill="#9cbcff" />
+              <rect x="78" y="166" width="40" height="8" rx="4" fill="#c4d7ff" />
+              <rect x="300" y="106" width="104" height="82" rx="20" fill="url(#screenGradient)" stroke="rgba(36,107,255,0.15)" />
+              <rect x="318" y="126" width="70" height="10" rx="5" fill="#274f9f" />
+              <rect x="318" y="146" width="44" height="8" rx="4" fill="#6fa2ff" />
+              <rect x="318" y="162" width="54" height="8" rx="4" fill="#a9c6ff" />
+              <circle cx="230" cy="148" r="50" fill="#ffd9be" />
+              <path d="M188 132c10-34 90-36 103 4c-10-7-21-11-33-11c-30 0-55 17-70 7z" fill="#2b4d7d" />
+              <rect x="154" y="196" width="156" height="142" rx="52" fill="url(#hoodieGradient)" />
+              <path d="M150 250c16 6 28 18 38 40" stroke="#ffd9be" stroke-width="18" stroke-linecap="round" />
+              <path d="M310 250c-16 6-28 18-38 40" stroke="#ffd9be" stroke-width="18" stroke-linecap="round" />
+              <rect x="112" y="304" width="236" height="72" rx="20" fill="url(#deskGradient)" />
+              <rect x="146" y="280" width="168" height="92" rx="18" fill="#304c74" />
+              <rect x="162" y="296" width="136" height="58" rx="12" fill="#edf5ff" />
+              <rect x="176" y="310" width="52" height="8" rx="4" fill="#2358d4" />
+              <rect x="176" y="324" width="92" height="8" rx="4" fill="#7ca8ff" />
+              <rect x="176" y="338" width="76" height="8" rx="4" fill="#c4d7ff" />
+              <circle cx="230" cy="318" r="8" fill="#4f82ff" />
+              <circle cx="212" cy="150" r="4" fill="#243654" />
+              <circle cx="248" cy="150" r="4" fill="#243654" />
+              <path d="M212 172c8 8 28 8 36 0" stroke="#d8876b" stroke-width="4" stroke-linecap="round" fill="none" />
+              <circle cx="116" cy="84" r="17" fill="#43c897" />
+              <circle cx="352" cy="78" r="17" fill="#ff9a4d" />
+              <circle cx="396" cy="236" r="14" fill="#5e92ff" />
+              <path d="M128 95l52 42" stroke="rgba(36,107,255,0.25)" stroke-width="2" stroke-dasharray="5 5" />
+              <path d="M336 90l-44 44" stroke="rgba(36,107,255,0.25)" stroke-width="2" stroke-dasharray="5 5" />
+              <path d="M382 234l-58 40" stroke="rgba(36,107,255,0.25)" stroke-width="2" stroke-dasharray="5 5" />
+            </svg>
+
+            <div class="scene-card scene-card-floating">
+              <span class="scene-label">Live stack</span>
+              <ul>
+                <li>AWS</li>
+                <li>Kubernetes</li>
+                <li>Terraform</li>
+                <li>Grafana</li>
+              </ul>
+            </div>
+
+            <div class="scene-card scene-card-side scene-card-left">
+              <span class="scene-label">Platform signals</span>
+              <p>Metrics, release trails, and runtime visibility shaped into calmer operations.</p>
+            </div>
+
+            <div class="scene-card scene-card-side scene-card-right">
+              <span class="scene-label">Mission lane</span>
+              <p>Observe, automate, explain, and recover with more confidence.</p>
+            </div>
+
+            <div class="scene-orbit orbit-one"></div>
+            <div class="scene-orbit orbit-two"></div>
+            <div class="scene-line line-one"></div>
+            <div class="scene-line line-two"></div>
+            <div class="scene-badge badge-one">Safe rollouts</div>
+            <div class="scene-badge badge-two">Clear signals</div>
+            <div class="scene-dot dot-one"></div>
+            <div class="scene-dot dot-two"></div>
+            <div class="scene-dot dot-three"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block impact-strip reveal">
+        <article class="impact-card">
+          <span class="impact-label">What I optimize for</span>
+          <strong>Faster shipping without fragile production</strong>
+          <p>Automation should increase confidence, not hide complexity.</p>
+        </article>
+        <article class="impact-card">
+          <span class="impact-label">How teams feel it</span>
+          <strong>Cleaner deploys, calmer incidents, better visibility</strong>
+          <p>The platform should support momentum for developers and clarity for operators.</p>
+        </article>
+        <article class="impact-card">
+          <span class="impact-label">What I bring</span>
+          <strong>Infra depth with product-minded UX thinking</strong>
+          <p>I care about how systems behave and how humans experience those systems.</p>
+        </article>
+      </section>
+
+      <section id="about" class="section-block intro-panel reveal">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Who I am</p>
+            <h2>A platform engineer with a product mindset.</h2>
+          </div>
+          <p class="section-summary">
+            I focus on delivery systems people can trust: stable runtime layers, smooth deployment
+            experiences, and observability that makes incidents easier to understand.
+          </p>
+        </div>
+
+        <div class="intro-grid">
+          <article class="info-card">
+            <span class="info-label">Current role</span>
+            <h3>Senior DevOps Engineer at Pine Labs</h3>
+            <p>Managing infrastructure, Kubernetes, artifact workflows, and developer-friendly deployment patterns across multiple environments.</p>
+          </article>
+          <article class="info-card">
+            <span class="info-label">Previous scale</span>
+            <h3>OpsTree Solutions and Airtel Africa</h3>
+            <p>Supported production systems across India, Dubai, and Malaysia with a strong focus on automation and operational resilience.</p>
+          </article>
+          <article class="info-card">
+            <span class="info-label">Operating style</span>
+            <h3>Readable systems, safer releases</h3>
+            <p>I care about making infrastructure feel approachable for both engineering teams and the people on call.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="stack" class="section-block stack-section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Interactive stack</p>
+            <h2>Tap a layer to see how I think about the platform.</h2>
+          </div>
+          <p class="section-summary">
+            This is the part of the stack I actively shape: entry points, runtime, releases, signals,
+            and governance.
+          </p>
+        </div>
+
+        <div class="stack-explorer" id="stackStory">
+          <div class="stack-list reveal" id="stackList">
+            <button class="stack-item active" data-layer="experience" type="button">
+              <span class="stack-kicker">01</span>
+              <div>
+                <strong>Experience layer</strong>
+                <p>DNS, edge routing, TLS, ingress, user entry points</p>
+              </div>
+            </button>
+            <button class="stack-item" data-layer="compute" type="button">
+              <span class="stack-kicker">02</span>
+              <div>
+                <strong>Compute layer</strong>
+                <p>Kubernetes, containers, scaling, cluster health</p>
+              </div>
+            </button>
+            <button class="stack-item" data-layer="release" type="button">
+              <span class="stack-kicker">03</span>
+              <div>
+                <strong>Release layer</strong>
+                <p>CI/CD, promotion rules, canaries, rollback safety</p>
+              </div>
+            </button>
+            <button class="stack-item" data-layer="signal" type="button">
+              <span class="stack-kicker">04</span>
+              <div>
+                <strong>Signal layer</strong>
+                <p>Metrics, logs, dashboards, alerting, visibility</p>
+              </div>
+            </button>
+            <button class="stack-item" data-layer="control" type="button">
+              <span class="stack-kicker">05</span>
+              <div>
+                <strong>Control layer</strong>
+                <p>Terraform, IAM, secrets, auditability, policy</p>
+              </div>
+            </button>
+          </div>
+
+          <aside class="stack-panel reveal">
+            <p class="panel-label">Selected layer</p>
+            <h3 id="stackTitle">Experience layer</h3>
+            <p id="stackBody">
+              The first touchpoint should feel fast and stable. I work on clean ingress paths, DNS hygiene,
+              TLS management, and safe traffic routing before requests ever hit the cluster.
+            </p>
+            <div class="stack-tags" id="stackTags">
+              <span>Route 53</span>
+              <span>CloudFront</span>
+              <span>TLS</span>
+              <span>Ingress</span>
+            </div>
+            <div class="stack-note" id="stackNote">
+              Outcome: lower friction for users and fewer surprises for operators.
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section-block recruiter-panel reveal">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Recruiter view</p>
+            <h2>The fastest way to understand my fit.</h2>
+          </div>
+          <p class="section-summary">
+            If you are hiring for DevOps, platform engineering, cloud infrastructure, or reliability work,
+            this is the short version.
+          </p>
+        </div>
+
+        <div class="recruiter-grid">
+          <article class="recruiter-card">
+            <span class="impact-label">Best fit</span>
+            <strong>Senior DevOps Engineer, Platform Engineer, SRE-minded DevOps roles</strong>
+            <p>A strong match for teams modernizing release workflows, Kubernetes operations, or observability foundations.</p>
+          </article>
+          <article class="recruiter-card">
+            <span class="impact-label">Strengths</span>
+            <strong>AWS, Kubernetes, Terraform, CI/CD, monitoring, safer platform operations</strong>
+            <p>I focus on systems that are easier to ship on, easier to support, and easier to reason about.</p>
+          </article>
+          <article class="recruiter-card recruiter-actions">
+            <span class="impact-label">Quick actions</span>
+            <strong>Download a resume summary or jump to public profiles.</strong>
+            <div class="hero-actions">
+              <a class="primary-link" href="./sanyam-kalra-resume.txt" download>Download Resume</a>
+              <a class="secondary-link" href="https://www.linkedin.com/in/sanyamkalra/" target="_blank" rel="noreferrer">LinkedIn Profile</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block projects-section reveal">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Featured work</p>
+            <h2>Representative projects and public repos.</h2>
+          </div>
+          <p class="section-summary">
+            A mix of platform-oriented repositories and real-world delivery themes from my DevOps work.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <span class="impact-label">Public repo</span>
+            <h3>Jenkins Automation</h3>
+            <p>Automation-focused Jenkins work aligned with infrastructure provisioning and pipeline-driven delivery.</p>
+            <a href="https://github.com/Sanyam-Kalra/Jenkins" target="_blank" rel="noreferrer">Open repo</a>
+          </article>
+          <article class="project-card">
+            <span class="impact-label">Public repo</span>
+            <h3>HAProxy Setup Automation</h3>
+            <p>Proxy and traffic setup automation that reflects practical infra configuration and repeatable service exposure.</p>
+            <a href="https://github.com/Sanyam-Kalra/Haproxy" target="_blank" rel="noreferrer">Open repo</a>
+          </article>
+          <article class="project-card">
+            <span class="impact-label">Public repo</span>
+            <h3>Terraform Modules</h3>
+            <p>Infrastructure-as-code work for reusable provisioning and cleaner environment management.</p>
+            <a href="https://github.com/Sanyam-Kalra/Terraform" target="_blank" rel="noreferrer">Open repo</a>
+          </article>
+          <article class="project-card">
+            <span class="impact-label">Platform theme</span>
+            <h3>Multi-environment platform operations</h3>
+            <p>Production support across Dev, Stage, UAT, and Prod with a focus on release safety and developer autonomy.</p>
+            <a href="#workflow">See workflow</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="crew" class="section-block crew-section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Meet the crew</p>
+            <h2>Characters that represent how I approach DevOps work.</h2>
+          </div>
+          <p class="section-summary">
+            A friendlier way to explain the habits behind my infrastructure style.
+          </p>
+        </div>
+
+        <div class="crew-grid">
+          <article class="crew-card reveal">
+            <svg class="crew-avatar" viewBox="0 0 96 96" aria-hidden="true">
+              <rect x="8" y="8" width="80" height="80" rx="26" fill="#ddebff" />
+              <circle cx="48" cy="38" r="16" fill="#fff4e8" />
+              <path d="M30 70c7-13 29-13 36 0" fill="#4f82ff" />
+              <path d="M36 26c2-8 19-10 24 2c-7-2-14-2-24-2z" fill="#31568f" />
+            </svg>
+            <h3>Captain Deploy</h3>
+            <p>Keeps release paths calm, observable, and reversible.</p>
+            <div class="crew-tags">
+              <span>Canary</span>
+              <span>Rollback</span>
+            </div>
+          </article>
+          <article class="crew-card reveal">
+            <svg class="crew-avatar" viewBox="0 0 96 96" aria-hidden="true">
+              <rect x="8" y="8" width="80" height="80" rx="26" fill="#d7fff0" />
+              <circle cx="48" cy="36" r="16" fill="#fff4e8" />
+              <rect x="26" y="58" width="44" height="12" rx="6" fill="#43c897" />
+              <path d="M34 24c5-6 24-4 28 4c-8-2-18-2-28-4z" fill="#356b5b" />
+              <path d="M26 64h44" stroke="#2f6e59" stroke-width="4" stroke-linecap="round" />
+            </svg>
+            <h3>Signal Scout</h3>
+            <p>Turns logs and metrics into something humans can act on fast.</p>
+            <div class="crew-tags">
+              <span>Grafana</span>
+              <span>Alerts</span>
+            </div>
+          </article>
+          <article class="crew-card reveal">
+            <svg class="crew-avatar" viewBox="0 0 96 96" aria-hidden="true">
+              <rect x="8" y="8" width="80" height="80" rx="26" fill="#ffe8d3" />
+              <circle cx="48" cy="37" r="16" fill="#fff4e8" />
+              <path d="M28 70c8-14 32-14 40 0" fill="#ff9a4d" />
+              <path d="M34 24c3-7 20-8 26 4c-10-2-18-2-26-4z" fill="#8e5d3d" />
+              <rect x="40" y="57" width="16" height="16" rx="4" fill="#fff" />
+            </svg>
+            <h3>Terraform Tamer</h3>
+            <p>Brings order to infrastructure through repeatable, reviewable code.</p>
+            <div class="crew-tags">
+              <span>IaC</span>
+              <span>Governance</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflow" class="section-block workflow-section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Workflow</p>
+            <h2>How I make infrastructure feel more usable for teams.</h2>
+          </div>
+        </div>
+
+        <div class="workflow-story">
+          <div class="workflow-progress">
+            <div class="workflow-progress-bar" id="workflowProgressBar"></div>
+          </div>
+          <div class="workflow-grid" id="workflowGrid">
+          <article class="workflow-card reveal" data-step="1">
+            <span class="workflow-index">01</span>
+            <h3>Clarify the path</h3>
+            <p>Make the deployment flow understandable before adding more automation on top.</p>
+          </article>
+          <article class="workflow-card reveal" data-step="2">
+            <span class="workflow-index">02</span>
+            <h3>Automate the repeatable parts</h3>
+            <p>Use pipelines, IaC, and safe defaults to reduce manual friction and drift.</p>
+          </article>
+          <article class="workflow-card reveal" data-step="3">
+            <span class="workflow-index">03</span>
+            <h3>Expose the signals</h3>
+            <p>Dashboards, alerts, and logs should make the next action obvious, not mysterious.</p>
+          </article>
+          <article class="workflow-card reveal" data-step="4">
+            <span class="workflow-index">04</span>
+            <h3>Design for real humans</h3>
+            <p>The best platform work helps developers move quickly and helps operators stay calm.</p>
+          </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-block contact-panel reveal">
+        <p class="eyebrow">Let’s connect</p>
+        <h2>If you need DevOps that is technical and human-friendly, we should talk.</h2>
+        <p class="section-summary">
+          I work across release engineering, Kubernetes operations, Terraform-based infrastructure,
+          observability, and platform reliability.
+        </p>
+
+        <div class="hero-actions">
+          <a class="primary-link" href="https://www.linkedin.com/in/sanyamkalra/" target="_blank" rel="noreferrer">Message on LinkedIn</a>
+          <a class="secondary-link" href="https://github.com/Sanyam-Kalra" target="_blank" rel="noreferrer">View GitHub</a>
+        </div>
+
+        <div class="contact-links">
+          <a href="#top">Back to top</a>
+          <a href="#stack">Stack explorer</a>
+          <a href="#crew">Platform crew</a>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>Built as a friendly DevOps portfolio for Sanyam Kalra.</p>
+      </footer>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
